@@ -1,12 +1,14 @@
 #pr{
     display: flex;
     height: 600px;
-    justify-content: space-evenly;
+    justify-content:space-evenly ;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 #ch1{
-    border: 1px solid black;
+    border: 5px solid black;
+  
     border-radius: 10px;
     width: 300px;
     height: 450px;
@@ -15,13 +17,14 @@
 
 }
 #ch2{
-    border: 1px solid black;
+    border: 5px solid black;
+    box-shadow: 16em;
     width: 300px;
     height: 450px;
     border-radius: 10px;
 }
 #ch3{
-    border: 1px solid black;
+    border: 5px solid black;
     width: 300px;
     height: 450px;
     border-radius: 10px;
@@ -68,6 +71,13 @@ button:focus{
     color: red;
     font-weight: bold;
 }
+#ch1:hover,
+#ch2:hover,
+#ch3:hover{
+    color: blueviolet;
+    transition-duration: 3s, 1s;
+    
 
+}
 
 
